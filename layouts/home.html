@@ -1,177 +1,204 @@
 <!doctype html>
 <html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Resume of Joshua Schniper</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="css/main.css">
 
-  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-  <link rel="stylesheet" href="css/main.css">
+        <meta name="theme-color" content="#fafafa">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
 
-  <meta name="theme-color" content="#fafafa">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <body>
+        <div class="container mx-auto my-5">
+            <div class="grid grid-cols-8 gap-4">
+                <div class="col-span-8 sm:col-span-3 lg:col-span-2">
+                    <h1 class="text-5xl">
+                        <span>Joshua Schniper</span>
+                    </h1>
+                    {{ partial "partials/contact.html" . }}
+                    {{ partial "partials/aboutme.html" . }}
+                    {{ partial "partials/tools.html" . }}
+                    {{ partial "partials/education.html" . }}
+                </div>
+                <div class="col-span-8 md:col-span-5 lg:col-span-6">
+                    <h2 class="text-4xl mt-3">
+                        <span>At A High Level</span>
+                    </h2>
+                    <div>
+                        <p>An engineering lead with 15 years of experience across a broad swath of technology and a capable manager</p>
+                    </div>
 
-<body>
+                    <h2 class="text-4xl">
+                        <span>The Timeline</span>
+                    </h2>
+                    <h3 class="text-2xl">Icario (Jun 2021 - Now)</h3>
+                    <div>
+                        <p>
+                            Icario acquired ChipRewards in June of 2021. Icario is a healthcare technology company that focuses on gaps in care for CMS programs.
+                        </p>
+                    </div>
 
-  <!-- Add your site or application content here -->
-  <div class="container mx-auto my-5">
-      <div class="flex flex-row">
-          <div class="basis-1/3">
-              <h1 class="text-5xl">Joshua Schniper</h1>
-              <!-- {{ partial "partials/test.html" . }} -->
-          </div>
-          <div class="basis-2/3">
-              <h1 class="text-5xl">The Timeline</h1>
-              <h2 class="mt-5 text-2xl">IcarioHealth (Jun 2021 - Now)</h2>
-              <p>
-                  IcarioHealth acquired ChipRewards in June of 2021. Icario is a healthcare technology
-                  company that focuses on gaps in care for CMS programs.
-              </p>
+                    <div class="pl-4">
+                        <h4 class="text-xl">Senior Director of Engineering</h4>
 
-              <div class="pl-4">
-                  <h3 class="my-2 text-xl">Senior Director of Engineering</h3>
+                        <div>
+                            <p>
+                                Engineering leader responsible for teams in Birmingham and Minneapolis.
+                            </p>
 
-                  <p>
-                      Engineering leader responsible for teams in Birmingham and Minneapolis.
-                  </p>
+                            <ul class="pl-3 list-disc">
+                                <li>
+                                    Helped coordinate the migration from several legacy platforms onto a new consolidated platform
+                                </li>
+                                <li>
+                                    Worked with others in senior leadership to make sure that priorities were consistent within the organization
+                                </li>
+                                <li>
+                                    Managed 12-15 employees and worked to retain them during a period of very high turnover
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                  <ul class="pl-3 list-disc">
-                      <li>
-                          Helped coordinate the migration from several legacy platforms onto a new consolidated platform.
-                      </li>
-                  </ul>
-              </div>
+                    <h3 class="text-2xl">ChipRewards (Jun 2011 - Jun 2021)</h3>
 
-              <h2 class="mt-5 text-2xl">ChipRewards (Jun 2011 - Jun 2021)</h2>
+                    <div>
+                        <p>
+                            ChipRewards was a healthcare technology company that initially focused on incentive programs in the commercial healthcare space and expanded into running similar programs in the Medicaid and Medicare space. I started as employee number 9 or 10 and by the time of the acquisition we had over 60 employees. Given the small size, I wore a number of different hats including:
+                        </p>
+                    </div>
 
-              <p>
-                  ChipRewards was a healthcare technology company that initally focused on incentive programs in the commercial healthcare space and expanded into running similar programs in the Medicaid and Medicare space. I started as employee number 9 or 10 and by the time of the acquisition we had over 60 employees. Given the small size, I wore a number of different hats including:
-              </p>
+                    <div class="pl-4">
+                        <h4 class="text-xl">(Sometimes) Senior Developer & Team Lead</h4>
 
-              <div class="pl-4">
-              <h3 class="my-2 text-xl">(Sometimes) Senior Developer & Team Lead</h3>
+                        <div>
+                            <p>
+                                Manager for a small team that was focused on the ChipRewards member portal. This application started as a Ruby on the Rails application that experienced several major upgrades over the years. Finally, we decided to rewrite the existing application using Elixir with a React frontend and GraphQL at the API layer. The migration was a major success; we were able to provide the same basic functionality while cleaning up the major technical debt and providing a much better foundation for new feature development.
+                            </p>
 
-              <p>
-                  Managed a small team that was focused on the ChipRewards member portal. This application started as a Ruby on the Rails application that experienced several major upgrades over the years. Finally, we decided to rewrite the existing application using Elixir with a React frontend and GraphQL at the API layer. The migration was a major success. We were able to provide to the same basic functionality while cleaning up the major technical debt and providing a much better foundation for new feature development.
-              </p>
+                            <p>
+                                My general responsibilities in this role included:
+                            </p>
 
-              <p>
-                  My general responsibilities in this role included:
-              </p>
+                            <ul class="pl-3 list-disc">
+                                <li>
+                                    Managing the roadmap and development priorities to make sure they align with the business needs while also working with the development team to handle technical debt and improve processes
+                                </li>
+                                <li>
+                                    Tracking down requirements and making sure everything was ready for the development team
+                                </li>
+                                <li>
+                                    Mentoring younger developers and providing them with the type of the work that allowed them room to grow
+                                </li>
+                                <li>
+                                    Managing team priorities across several competing clients and projects
+                                </li>
+                            </ul>
+                        </div>
 
-              <ul class="pl-3 list-disc">
-                  <li>
-                      Managing roadmap and development priorities to make sure they align with the business needs while also providing the development team with needed quality of life improvements.
-                  </li>
-                  <li>
-                      Tracking down requirements and making sure everything was ready for the development team.
-                  </li>
-                  <li>
-                      Mentoring younger developers and providing them with the type of the work that gave them room
-                  </li>
-                  to grow.
-                  <li>
-                      Managing team priorities across several competing clients and projects.
-                  </li>
-                  <li>
-                      TODO: More...
-                  </li>
-              </ul>
+                        <h4 class="text-xl">
+                            (Sometimes) Cloud Engineer
+                        </h4>
 
-              <h3 class="my-2 text-xl">
-                  (Sometimes) Cloud Engineer
-              </h3>
+                        <h5 class="text-l">The AWS Years (2018 - Now)</h5>
+                        <div class="pl-4">
+                            <p>
+                                Generally responsible for setting up and maintaining our AWS environment. I lead the charge on moving from Rackspace to AWS, which included:
+                            </p>
 
-              <h4 class="text-l">The AWS Years (2018 - Now)</h4>
-              <div class="pl-4">
-                  <p>
-                      Generally responsible for setting up and maintaining our AWS environment. This included leading the charge on moving from Rackspce to AWS, which included:
-                  </p>
+                            <ul class="pl-3 list-disc">
+                                <li>Migrating several large Postgres databases while minimizing impact to live programs</li>
+                                <li>
+                                    Building several Kubernetes clusters and setting up live "replicas" of our existing environments to provide for a near seamless cutover
+                                </li>
+                                <li>
+                                    Ensuring that existing integrations with clients and third party vendors weren't disrupted and data processing continued with minimal interruption
+                                </li>
+                                <li>
+                                    Replacing our existing CI/CD process to leverage Terraform
+                                </li>
+                            </ul>
+                        </div>
 
-                  <ul class="pl-3 list-disc">
-                      <li>Migrating several large postgres databases while minimizing impact to live programs.</li>
-                      <li>
-                          Building several Kubernetes clusters and setting up live "replicas" of our existing environments to provide for a near seamless cutover.
-                      </li>
-                      <li>
-                          Ensuring that existing integrations with clients and third party vendors weren't disrupted and
-                          data processing continued with minimal interruption.
-                      </li>
-                      <li>
-                          Replaced our existing CI/CD process to leverage Terraform
-                      </li>
-                  </ul>
-              </div>
+                        <h5 class="text-l">The Rackspace Years (2011 - Now)</h5>
+                        <div class="pl-4">
+                            <p>
+                                I fell into the responsibility of maintaining our cloud servers and improving the process so that the onboarding of new clients was less odious. This work included:
+                            </p>
 
-              <h4 class="text-l">The Rackspace Years (2011 - Now)</h4>
-              <div class="pl-4">
-                  <p>
-                      Fell into the responsibility of maintaining our cloud servers and improving the process so that onboarding of new clients was less odious. As part of that:
-                  </p>
+                            <ul class="pl-3 list-disc">
+                                <li>Containerization of all of the applications and the setup of the CI/CD processes</li>
+                                <li>Developing the procedure for provisioning new servers using Ansible to provide standard baseline configurations with alarming and monitoring baked in and a path for easy upgrades</li>
+                            </ul>
+                        </div>
+                    </div>
 
-                  <ul class="pl-3 list-disc">
-                      <li>Worked on the containerization of all of the applications and setup the CI/CD processes</li>
-                      <li>Developed the procedure for provisioning new servers using Ansible to provide standard baseline configurations with alarming and monitoring baked in and easy upgrades.</li>
-                  </ul>
-              </div>
-              </div>
+                    <h3 class="text-2xl">Naia Corporation (2010 - 2011)</h3>
 
-              <h2 class="mt-5 text-2xl">Naia Corporation (2010 - 2011)</h2>
+                    <div>
+                        <p>Naia offered software development outsourcing and consulting to small businesses in the Birmingham area</p>
+                    </div>
 
-              <p>Naia offered software development outsourcing and consulting to small businesses in the area.</p>
+                    <div class="pl-4">
+                        <h4 class="text-xl">Front End Developer</h4>
+                        <div>
+                            <p>
+                                I focused mainly on cleanup of existing client applications and worked on modernizing the front end technology stack away from Silverlight towards modern HTML, JS and CSS. I was also embedded with a client for a prolonged period to help launch a mobile browser application that interfaced with their existing web services.
+                            </p>
+                        </div>
+                    </div>
 
-              <div class="pl-4">
-                  <h3 class="my-2 text-xl">Front End Developer</h3>
-                  <p>
-                      I focused mainly on cleanup of existing client applications and worked on modernizing the front end technology stack away from Silverlight towards modern HTML, JS and CSS. I was also embedded with a client for a prolonged period to help launch a mobile browser application that interfaced with their existing web services.
-                  </p>
-              </div>
+                    <h3 class="text-2xl">Insercorp (2008 - 2010)</h3>
 
-              <h2 class="mt-5 text-2xl">Insercorp (2008 - 2010)</h2>
+                    <div>
+                        <p>Insercorp built and maintained small business websites.</p>
+                    </div>
 
-              <p>
-                  Insercorp built and maintained small business websites.
-              </p>
+                    <div class="pl-4">
+                        <h4 class="text-xl">Full Stack Developer</h4>
 
-              <div class="pl-4">
-                  <h3 class="my-2 text-xl">Full Stack Developer</h3>
+                        <div>
+                            <p>
+                                I was responsible for several new client implementations as well as new modules for the proprietary CMS used by Insercorp.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                  <p>
-                      I was responsible for several new client implementations as well as new modules for the proprietary CMS used by Insercorp.
-                  </p>
-              </div>
-          </div>
-      </div>
-  </div>
+        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XVEWVTCQN8"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XVEWVTCQN8"></script>
-  <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-XVEWVTCQN8');
-  </script>
-</body>
+            gtag('config', 'G-XVEWVTCQN8');
+        </script>
+    </body>
 
 </html>
