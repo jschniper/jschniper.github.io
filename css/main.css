@@ -72,6 +72,10 @@ ul.flat-list li:last-child:after {
     padding: 0.5rem;
   }
 
+  .container {
+    margin: 0 !important;
+  }
+
   .grid div:first-child {
     border-right: 0px;
   }
