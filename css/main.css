@@ -1,0 +1,118 @@
+.grid div:first-child {
+  border-right: 2px dotted #7cb9e8;
+}
+
+h1,
+h2 {
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+h1 span,
+h2 span {
+  font-weight: bold !important;
+  border-bottom: 2px dotted #7cb9e8;
+}
+
+h3 {
+  font-weight: bold !important;
+  margin: 1rem 0 0.5rem 0.5rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+h3 + div {
+  margin: 0.2rem 0 0.2rem 0.5rem;
+}
+
+h4 {
+  font-weight: bold !important;
+  margin: 1rem 0 0.3rem 1rem;
+  padding: 0.3rem 0 0.3rem 1rem;
+}
+
+h4 + div {
+  margin: 0.2rem 0 0.2rem 1rem;
+}
+
+h5 {
+  font-weight: bold !important;
+  margin: 1rem 0 0.3rem 1.5rem;
+  padding: 0.3rem 0 0.3rem 1.5rem;
+}
+
+h5 + div {
+  margin: 0.2rem 0 0.2rem 1.5rem;
+}
+
+ul {
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+ul.flat-list {
+  display: inline-block;
+}
+
+ul.flat-list li {
+  float: left;
+  margin-right: 0.5rem;
+}
+
+ul.flat-list li:after {
+  content: "\205D";
+  padding-left: 0.5rem;
+}
+
+ul.flat-list li:last-child:after {
+  content: "";
+}
+
+@media print {
+  @page {
+    margin: 0.2cm;
+  }
+
+  body {
+    font-size: 11px;
+  }
+
+  .container {
+    margin: 0 !important;
+  }
+
+  .grid div {
+    width: 100% !important;
+  }
+
+  h1,
+  h2 {
+    margin: 0.4rem 0;
+    padding: 0.4rem 0;
+  }
+
+  h1,
+  h2 {
+    margin: 0.2rem 0;
+    padding: 0.2rem 0;
+  }
+
+  .text-5xl {
+    font-size: 1.5rem !important;
+  }
+
+  .text-4xl {
+    font-size: 1.4rem !important;
+  }
+
+  .text-3xl {
+    font-size: 1.3rem !important;
+  }
+
+  .text-2xl {
+    font-size: 1.2rem !important;
+  }
+
+  .text-xl {
+    font-size: 1.1rem !important;
+  }
+}
